@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiBatchChatGPT.Views.SettingView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+     xmlns:viewModels="clr-namespace:MauiBatchChatGPT.ViewModels"
+    Title="SettingView">
+    <ContentPage.BindingContext>
+        <viewModels:SettingViewModel />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        
+        <Label
+            HorizontalOptions="Center"
+            Text="API key like sk-XXXXXXXXXX"
+            VerticalOptions="Center" />
+        
+        <Entry x:Name="MyEntry" Placeholder="请输入API KEY" />
+        <Button x:Name="CheckApiKeyBtn" Text="验证" Clicked="CheckApiKeyBtn_OnClicked"/>
+        
+        <!--<Label x:Name="check"  Padding="10" HeightRequest="50" Background="red" VerticalOptions="Center"  HorizontalOptions="Center" />-->
+    </VerticalStackLayout>
+</ContentPage>

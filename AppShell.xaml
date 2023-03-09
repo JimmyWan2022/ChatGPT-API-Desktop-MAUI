@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiBatchChatGPT.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiBatchChatGPT"
+    xmlns:views="clr-namespace:MauiBatchChatGPT.Views">
+    <!--  Shell.FlyoutBehavior="Disabled"  -->
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate views:HomeView}"
+        Route="MainPage" />
+    <FlyoutItem Title="菜单1">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate views:Page1}" />
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="菜单2">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate views:Page2}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="设置">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate views:SettingView}" />
+        </Tab>
+    </FlyoutItem>
+    <ShellContent
+        Title="About"
+        ContentTemplate="{DataTemplate views:AboutView}"
+        Icon="info.png" />
+
+</Shell>
