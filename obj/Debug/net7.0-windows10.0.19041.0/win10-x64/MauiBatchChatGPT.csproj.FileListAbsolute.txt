@@ -331,3 +331,14 @@ D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft
 D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
 D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Bcl.AsyncInterfaces.dll
 D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\OpenAI_API.dll
+D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\OpenAI.dll
+D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Markdig.dll
+D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MarkdownView.dll
+D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SkiaSharp.dll
+D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SkiaSharp.Extended.Svg.dll
+D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Xam.Forms.MarkdownView.dll
+D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Xamarin.Essentials.dll
+D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Xamarin.Forms.Core.dll
+D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Xamarin.Forms.Platform.dll
+D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Xamarin.Forms.Xaml.dll
+D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\libSkiaSharp.dll

@@ -69,6 +69,14 @@
               "target": "Package",
               "version": "[8.1.0, )"
             },
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.31.0, )"
+            },
+            "MarkdownView": {
+              "target": "Package",
+              "version": "[0.7.2, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -110,9 +118,17 @@
               "target": "Package",
               "version": "[1.6.0, )"
             },
+            "OpenAIApi": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "System.Net.Http": {
               "target": "Package",
               "version": "[4.3.4, )"
+            },
+            "Xam.Forms.MarkdownView": {
+              "target": "Package",
+              "version": "[0.6.1-pre, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -211,6 +227,14 @@
               "target": "Package",
               "version": "[8.1.0, )"
             },
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.31.0, )"
+            },
+            "MarkdownView": {
+              "target": "Package",
+              "version": "[0.7.2, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -252,9 +276,17 @@
               "target": "Package",
               "version": "[1.6.0, )"
             },
+            "OpenAIApi": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "System.Net.Http": {
               "target": "Package",
               "version": "[4.3.4, )"
+            },
+            "Xam.Forms.MarkdownView": {
+              "target": "Package",
+              "version": "[0.6.1-pre, )"
             }
           },
           "imports": [
@@ -298,6 +330,14 @@
               "target": "Package",
               "version": "[8.1.0, )"
             },
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.31.0, )"
+            },
+            "MarkdownView": {
+              "target": "Package",
+              "version": "[0.7.2, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -339,9 +379,17 @@
               "target": "Package",
               "version": "[1.6.0, )"
             },
+            "OpenAIApi": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "System.Net.Http": {
               "target": "Package",
               "version": "[4.3.4, )"
+            },
+            "Xam.Forms.MarkdownView": {
+              "target": "Package",
+              "version": "[0.6.1-pre, )"
             }
           },
           "imports": [
@@ -385,6 +433,14 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.31.0, )"
+            },
+            "MarkdownView": {
+              "target": "Package",
+              "version": "[0.7.2, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -443,9 +499,17 @@
               "target": "Package",
               "version": "[1.6.0, )"
             },
+            "OpenAIApi": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "System.Net.Http": {
               "target": "Package",
               "version": "[4.3.4, )"
+            },
+            "Xam.Forms.MarkdownView": {
+              "target": "Package",
+              "version": "[0.6.1-pre, )"
             }
           },
           "imports": [

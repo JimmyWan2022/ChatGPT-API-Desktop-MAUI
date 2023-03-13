@@ -7,7 +7,7 @@ namespace MauiBatchChatGPT.Utils
     class CommunicateUtil
     {
 
-        async Task<string> GetResponse(string prompt_text, string system_role,String apiKey)
+ public    static   async Task<string> GetResponse(string prompt_text,String apiKey)
         {
             string prompt = cleanprompt(prompt_text);
             var httpClient = new HttpClient();
@@ -64,7 +64,7 @@ namespace MauiBatchChatGPT.Utils
         }
 
 
-        void taxes(dynamic jsonResponse)
+        public static  void taxes(dynamic jsonResponse)
         {
             int prompt_tokens = jsonResponse.usage.prompt_tokens;
             int completion_tokens = jsonResponse.usage.completion_tokens;
@@ -83,7 +83,7 @@ namespace MauiBatchChatGPT.Utils
             //current_spent_box.Text = (0.000002 * total_tokens).ToString("0.000000") + "$";
             //total_m_spent_box.Text = (0.000002 * total_spent).ToString("0.000000") + "$";
         }
-        string cleanprompt(string prompt_text)
+        public static string cleanprompt(string prompt_text)
         {
             string cleanded_prompt = prompt_text?.Replace(Environment.NewLine, "\\n")?.Replace("\t", " ").Replace("\"", "\\\"");
             cleanded_prompt = System.Text.RegularExpressions.Regex.Replace(cleanded_prompt, @"\s+", " ");
@@ -97,14 +97,6 @@ namespace MauiBatchChatGPT.Utils
                 OpenAI_API.OpenAIAPI api = new OpenAI_API.OpenAIAPI(apiKey);
                 var result = await api.Completions.GetCompletion("One Two Three One Two");
                 Console.WriteLine(result);
-                //using (var client = new HttpClient())
-                //{
-                //    client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
-                //    using (var response = await client.GetAsync("https://api.chatgpt.com/ping"))
-                //    {
-                //        return response.IsSuccessStatusCode;
-                //    }
-                //}
                 return true;
             }
             catch

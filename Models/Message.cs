@@ -9,7 +9,8 @@ namespace MauiBatchChatGPT.Models
     // Message class
     public class Message
     {
-        public string Text { get; set; }
+        //public string Text { get; set; }
+        public HtmlWebViewSource MarkdownSource { get; set; }
         public string Timestamp { get; set; }
         public Color BackgroundColor { get; set; }
         public LayoutOptions HorizontalOptions { get; set; }

@@ -7,8 +7,15 @@ public partial class SettingView : ContentPage
     public SettingView()
     {
         InitializeComponent();
+        LoadKey();
     }
-
+    private void LoadKey() {
+        Console.WriteLine("App.APIKEY" + App.APIKEY);
+        if (!String.IsNullOrEmpty(App.APIKEY) && !App.APIKEY.Equals("")) {
+            MyEntry.Text = App.APIKEY ;
+        }
+    
+    }
     private void CheckApiKeyBtn_OnClicked(object sender, EventArgs e)
     {
         // Disable the button
@@ -34,6 +41,7 @@ public partial class SettingView : ContentPage
         {
             MyAlertPassed();
             App.APIKEY = MyEntry.Text;
+            App.apiKeyIsChecked = true;
         }
         else
         {

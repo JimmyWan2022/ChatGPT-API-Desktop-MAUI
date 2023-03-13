@@ -30,25 +30,25 @@
     <AppXManifest Include="D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-09T14:31:26.137</Modified>
+      <Modified>2023-03-11T02:15:57.824</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-09T14:31:25.690</Modified>
+      <Modified>2023-03-11T02:15:57.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiBatchChatGPT.runtimeconfig.json">
       <PackagePath>MauiBatchChatGPT.runtimeconfig.json</PackagePath>
-      <Modified>2023-03-09T14:19:13.095</Modified>
+      <Modified>2023-03-09T23:44:03.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\WPF\MauiBatchChatGPT\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiBatchChatGPT.dll">
       <PackagePath>MauiBatchChatGPT.dll</PackagePath>
-      <Modified>2023-03-09T14:31:24.536</Modified>
+      <Modified>2023-03-11T02:15:56.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\WPF\MauiBatchChatGPT\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiBatchChatGPT.exe</PackagePath>
-      <Modified>2023-03-09T14:31:24.546</Modified>
+      <Modified>2023-03-11T02:15:56.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jimmy\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.3\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -818,6 +818,14 @@
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
       <Modified>2023-01-17T22:56:14.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jimmy\.nuget\packages\markdig\0.31.0\lib\net6.0\Markdig.dll">
+      <PackagePath>Markdig.dll</PackagePath>
+      <Modified>2023-02-27T06:47:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jimmy\.nuget\packages\markdownview\0.7.2\lib\netstandard2.1\MarkdownView.dll">
+      <PackagePath>MarkdownView.dll</PackagePath>
+      <Modified>2020-01-23T13:33:46.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jimmy\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
       <Modified>2020-04-14T22:39:12.000</Modified>
@@ -938,6 +946,38 @@
       <PackagePath>OpenAI_API.dll</PackagePath>
       <Modified>2023-03-09T01:23:46.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jimmy\.nuget\packages\openaiapi\1.0.1\lib\netstandard2.1\OpenAI.dll">
+      <PackagePath>OpenAI.dll</PackagePath>
+      <Modified>2022-12-09T16:20:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jimmy\.nuget\packages\skiasharp\1.60.0\lib\netstandard1.3\SkiaSharp.dll">
+      <PackagePath>SkiaSharp.dll</PackagePath>
+      <Modified>2018-02-22T15:42:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jimmy\.nuget\packages\skiasharp.svg\1.60.0\lib\netstandard2.0\SkiaSharp.Extended.Svg.dll">
+      <PackagePath>SkiaSharp.Extended.Svg.dll</PackagePath>
+      <Modified>2018-04-11T11:06:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jimmy\.nuget\packages\xam.forms.markdownview\0.6.1-pre\lib\netstandard2.0\Xam.Forms.MarkdownView.dll">
+      <PackagePath>Xam.Forms.MarkdownView.dll</PackagePath>
+      <Modified>2018-06-06T11:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jimmy\.nuget\packages\xamarin.essentials\1.3.1\lib\netstandard2.0\Xamarin.Essentials.dll">
+      <PackagePath>Xamarin.Essentials.dll</PackagePath>
+      <Modified>2019-09-19T00:33:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jimmy\.nuget\packages\xamarin.forms\4.4.0.991537\lib\netstandard2.0\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+      <Modified>2020-01-18T00:43:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jimmy\.nuget\packages\xamarin.forms\4.4.0.991537\lib\netstandard2.0\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+      <Modified>2020-01-18T00:43:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jimmy\.nuget\packages\xamarin.forms\4.4.0.991537\lib\netstandard2.0\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+      <Modified>2020-01-18T00:43:32.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jimmy\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2022-10-04T20:41:34.000</Modified>
@@ -946,9 +986,13 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jimmy\.nuget\packages\skiasharp\1.60.0\runtimes\win7-x64\native\libSkiaSharp.dll">
+      <PackagePath>libSkiaSharp.dll</PackagePath>
+      <Modified>2018-02-22T15:42:14.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\WPF\MauiBatchChatGPT\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiBatchChatGPT.deps.json">
       <PackagePath>MauiBatchChatGPT.deps.json</PackagePath>
-      <Modified>2023-03-09T14:31:25.996</Modified>
+      <Modified>2023-03-11T02:15:57.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -965,6 +1009,10 @@
     <AppxPackagedFile Include="D:\WPF\MauiBatchChatGPT\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-03-05T23:57:05.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WPF\MauiBatchChatGPT\Resources\Config\Config.json">
+      <PackagePath>Config.json</PackagePath>
+      <Modified>2023-03-11T00:00:58.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\WPF\MauiBatchChatGPT\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
